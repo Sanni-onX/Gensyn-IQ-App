@@ -487,8 +487,8 @@ export default function BrevisIQApp() {
   className="
     min-h-screen w-full text-slate-100
     bg-no-repeat bg-cover bg-center
-    bg-[url('./assets/bgportrait.svg')]   // mobile default
-    md:bg-[url('./assets/bglandscape.svg')]  // swap on medium+ screens
+    bg-[url('./assets/bgortrait.svg')]   // mobile default
+    md:bg-[url('./assets/bgLandscape.svg')]  // swap on medium+ screens
   "
 >  
     {/* Header */}
