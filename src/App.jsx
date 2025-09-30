@@ -487,8 +487,8 @@ export default function BrevisIQApp() {
   className="
     min-h-screen w-full text-slate-100
     bg-no-repeat bg-cover bg-center
-    bg-[url('./assets/bgportrait.jpg')]   // mobile default
-    md:bg-[url('./assets/bglandscape.jpg')]  // swap on medium+ screens
+    bg-[url('./assets/bgportrait.svg')]   // mobile default
+    md:bg-[url('./assets/bglandscape.svg')]  // swap on medium+ screens
   "
 >  
     {/* Header */}
@@ -721,7 +721,7 @@ export default function BrevisIQApp() {
               <div className="md:justify-self-end">
                 <div
                   ref={cardRef} 
-                  className="w-[480px] h-[270px] rounded-2xl p-4 bg-[url('./assets/Cardbg.jpg')] bg-cover bg-center border border-white/10 shadow-2xl relative overflow-hidden"
+                  className="w-[480px] h-[270px] rounded-2xl p-4 bg-[url('./assets/Cardbg.svg')] bg-cover bg-center border border-white/10 shadow-2xl relative overflow-hidden"
                 >
                   <div className="absolute -top-10 -right-6 h-40 w-40 rounded-full bg-white/10 blur-2xl" />
                   <div className="absolute -bottom-16 -left-8 h-48 w-48 rounded-full blur-3xl" />
