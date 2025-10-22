@@ -689,6 +689,7 @@ export default function GensynIQApp() {
               <button
                 onClick={startQuiz}
                 className="px-4 py-2 rounded-xl bg-indigo-500 hover:bg-indigo-600 font-semibold"
+                style={{ backgroundColor: "#f3a99a" }}
               >
                 I'm Ready → Quiz
               </button>
