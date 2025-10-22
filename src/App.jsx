@@ -803,7 +803,7 @@ export default function GensynIQApp() {
                 <div className="flex gap-3">
                   <button
                     onClick={handleDownload}
-                    className="px-4 py-2 rounded-xl bg-indigo-500 hover:bg-indigo-600 font-semibold"
+                    className="px-4 py-2 rounded-xl bg-indigo-500 hover:bg-indigo-600 font-semibold" style={{ backgroundColor: "#f3a99a" }}
                   >
                     Download PNG
                   </button>
