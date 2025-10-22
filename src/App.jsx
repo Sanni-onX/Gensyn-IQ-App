@@ -738,16 +738,16 @@ export default function GensynIQApp() {
             <div className="flex items-center justify-between flex-wrap gap-3">
               <h3 className="text-2xl font-semibold">Quiz</h3>
               <div className="flex items-center gap-2 text-sm">
-                <span className="px-3 py-1 rounded-full bg-white/15 backdrop-blur-xs border border-white/10">
+                <span className="px-3 py-1 rounded-full bg-black/40 backdrop-blur-xs border border-white/10">
                   Question {current + 1} / {quiz.length}
                 </span>
-                <span className="px-3 py-1 rounded-full bg-white/15 backdrop-blur-xs border border-white/10">
+                <span className="px-3 py-1 rounded-full bg-black/40 backdrop-blur-xs border border-white/10">
                   ⏱️ {timeLeft}s
                 </span>
               </div>
             </div>
 
-            <div className="p-5 rounded-2xl border border-white/10 bg-white/15 backdrop-blur-xs">
+            <div className="p-5 rounded-2xl border border-white/10 bg-black/40 backdrop-blur-xs">
               <p className="font-medium mb-3">
                 Q{current + 1}. {quiz[current].q}
               </p>
@@ -756,7 +756,7 @@ export default function GensynIQApp() {
                   <button
                     key={cIdx}
                     onClick={() => onSelect(cIdx)}
-                    className="text-left p-4 rounded-xl border transition border-white/10 bg-white/5 hover:bg-white/10"
+                    className="text-left p-4 rounded-xl border transition border-white/10 bg-black/30 hover:bg-white/10"
                   >
                     {choice}
                   </button>
